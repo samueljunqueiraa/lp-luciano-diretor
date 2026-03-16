@@ -16,6 +16,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -594,6 +595,8 @@ footer {
         align-items: center;
         gap: 0;
         width: 100%;
+        flex: 1;
+        max-width: 100%;
     }
 
     .navbar-logo {
